@@ -7,5 +7,5 @@ console.log(Names.toLowerCase());
 // 2.2 uppercase
 console.log(Names.toUpperCase());
 // 2.3 TITLE CASE
-let titlecase: string = personName.replace(/\b\w/g, match => match.toUpperCase());
+let titlecase: string = Names.replace(/\b\w/g, match => match.toUpperCase());
 console.log("Titlecase: ", titlecase);
